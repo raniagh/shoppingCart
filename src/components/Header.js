@@ -1,9 +1,8 @@
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import "./header.css";
 
 export const Header = () => {
-  const { pathname } = useLocation();
   return (
     <header>
       <Link to="/" className="logo">
